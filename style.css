@@ -1,0 +1,72 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+/* Menu Container */
+.menu-container {
+    background: rgba(255, 255, 255, 0.9);
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Title */
+.menu-title {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: serif;
+    margin-bottom: 20px;
+    color: red;
+}
+
+/* Category Headings */
+.category {
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+/* Menu Items */
+.menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Text Style */
+.menu-text {
+    font-size: 18px;
+    flex-grow: 1;
+    text-align: left;
+    color: red;
+}
+
+/* Price */
+.price {
+    font-weight: bold;
+    color: red;
+}
+
+/* Images */
+.menu-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
